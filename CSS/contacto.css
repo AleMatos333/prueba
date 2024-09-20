@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+section{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    text-align: center;
+}
+input{
+    width: 70%;
+}
+.imagenes{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    height: auto;
+}
+button{
+    width: 40%;
+    height: 40px;
+    margin-top: 5%;
+}
+.contenedor-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagen{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    height: auto;
+}
+.imagen:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.banner{
+    border-radius: 20px;
+}

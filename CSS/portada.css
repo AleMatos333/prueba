@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("../IMAGENES/imagen\ portada.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.titulo23{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    height: 150px;
+}
+.titulo23 h1{
+    line-height: 150px;
+    font-size: 50px;
+}
+.bg-barra{
+    background-color: #333;
+}
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+section{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}

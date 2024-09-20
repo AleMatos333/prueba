@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+section{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    text-align: left;
+}
+input{
+    width: 100%;
+}
+.imagen{
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    height: auto;
+}
+.formulario{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    height: auto;
+    text-align: center;
+}
+.formulario h3{
+    text-align: center;
+}
+.clave{
+    width: 100%;
+    text-align: right;
+}
+button{
+    width: 40%;
+    height: 40px;
+    margin-top: 6%;
+}
+.contenedor-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
